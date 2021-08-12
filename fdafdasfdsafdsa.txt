@@ -1,0 +1,74 @@
+import java.util.ArrayList;
+
+public class skillTree {
+    // "CBD"	["BACDE", "CBADF", "AECB", "BDA"]	2
+
+    //스킬트리 순서 분해
+    //스킬트리 순서 저장..?
+    //skill_trees 의 첫번째 원소 분해
+    //순회해서 앞서 저장한 순서에 맞는지 확인
+
+  
+
+    public static int solution(String skill, String[] skill_trees) {
+
+        ArrayList<Integer> contain = new ArrayList<Integer>();                              //스킬트리에 스킬트리순서의 원소가 있는지 확인 하는 리스트(횟수)
+        ArrayList<Boolean> trueFlag = new ArrayList<Boolean>();
+
+         
+        for (int i = 0; i < skill_trees.length; i++)                                        //i번째 스킬트리 분해
+        {
+            contain.add(0);                                                                 //i번째 contain의 원소를 0으로 초기화
+
+            for (int j = 0; j < skill.length(); j++)                                        //j 번째 스킬트리 순서 문자 확인
+            {
+                if (skill_trees[i].contains(skill.charAt[j]))                               //j번째 스킬트리순서 문자가 skill_tree의 i 번째 원소에 있으면
+                {
+                    int a = contain.get(i);                                                 //contain의 i번째 원소를 +1
+                    a++;
+                }
+            }
+        }
+
+        for (int i = 0; i < contain.size(); i++)
+        {
+            if (contain.get(i) < 2)
+            {
+                trueFlag.add(true);
+            }
+            else
+            {
+                {
+                    if (skill_tree.indexOf(skill.charAt(k)) < skill_tree.indexOf(skill.charAt(k+1)))
+                    {
+                        trueFlag.add(true);
+                    }
+                    else
+                    {
+                        trueFlag.add(false);
+                    }
+                }
+            }
+        }
+
+        int answer = 0;
+
+        for (int i = 0; i < trueFlag.size(); i++)
+        {
+            if (trueFlag.get(i) == true)
+            {
+                answer++;
+            }
+        } 
+        return answer;
+    }
+
+    public static void main (String[] args)
+    {
+        String[] skill_trees = {"BACDE", "CBADF", "AECB", "BDA"};
+
+        int answer = solution("CBD", skill_trees);
+        System.out.println(answer);
+    }
+}
+

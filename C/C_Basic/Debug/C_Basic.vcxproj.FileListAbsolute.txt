@@ -1,0 +1,3 @@
+C:\Users\RoseBLINK\Desktop\과외폴더\C\C_Basic\Debug\C_Basic.exe
+C:\Users\RoseBLINK\Desktop\과외폴더\C\C_Basic\Debug\C_Basic.pdb
+C:\Users\natha\OneDrive\바탕 화면\과외폴더\C\C_Basic\Debug\C_Basic.exe

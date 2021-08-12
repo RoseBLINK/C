@@ -1,0 +1,43 @@
+리눅스
+
+
+UNIX
+AT&T
+
+UNIX
+* AT&T - BSD
+* LINUX open source
+
+GNU 재단
+
+리눅스 배포판
+* RedHat 계열
+	* CentOS, RedHatOS
+* Debian 계열
+	* Ubuntu
+
+
+MacOS
+
+리누스 + UNIX = 리눅스
+
+개인용PC - 윈도우 90%
+업무용PC
+
+서버PC - UNIX - 99%
+
+
+윈도우    -   리눅스, Mac
+
+
+
+      u     g     o
+d   rwx   r-x   r-x
+    421   
+
+655
+
+- rw- r-- r--
+
+
+

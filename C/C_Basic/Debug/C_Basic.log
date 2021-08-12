@@ -1,0 +1,10 @@
+﻿  C_Basic.cpp
+C:\Users\natha\OneDrive\바탕 화면\과외폴더\C\C_Basic\C_Basic.cpp(22,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'syllable' 왼쪽은 무시됩니다.
+C:\Users\natha\OneDrive\바탕 화면\과외폴더\C\C_Basic\C_Basic.cpp(37): warning C4091: 'typedef ': 변수를 선언하지 않으면 'Point::aaa' 왼쪽은 무시됩니다.
+C:\Users\natha\OneDrive\바탕 화면\과외폴더\C\C_Basic\C_Basic.cpp(61,12): warning C4101: 'c1' :참조되지 않은 지역 변수입니다.
+C:\Users\natha\OneDrive\바탕 화면\과외폴더\C\C_Basic\C_Basic.cpp(150,11): warning C4101: 'fp' :참조되지 않은 지역 변수입니다.
+C:\Users\natha\OneDrive\바탕 화면\과외폴더\C\C_Basic\C_Basic.cpp(164,10): warning C4101: 'str' :참조되지 않은 지역 변수입니다.
+C:\Users\natha\OneDrive\바탕 화면\과외폴더\C\C_Basic\C_Basic.cpp(405,15): warning C4114: 동일한 형식 한정자를 두 번 이상 사용했습니다.
+C:\Users\natha\OneDrive\바탕 화면\과외폴더\C\C_Basic\C_Basic.cpp(422,8): warning C4552: '+': 식의 결과가 사용되지 않습니다.
+C:\Users\natha\OneDrive\바탕 화면\과외폴더\C\C_Basic\C_Basic.cpp(554,9): warning C4101: 'arr4' :참조되지 않은 지역 변수입니다.
+  C_Basic.vcxproj -> C:\Users\natha\OneDrive\바탕 화면\과외폴더\C\C_Basic\Debug\C_Basic.exe

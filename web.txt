@@ -1,0 +1,40 @@
+개념
+- WEB vs internet
+
+
+Data - Server
+Client
+
+
+컴퓨터(NIC - IP)
+컴퓨터(NIC)
+
+
+인터넷 통신
+
+Client - Server
+
+
+OSI 7 Layer
+
+
+
+
+Plesse Do Not Throw sous pizza away
+
+Application
+Presesion
+Session
+Transfer
+Network
+Data link
+Physical
+
+
+
+
+
+Client                  < -  >               Server
+Web browser		 	WAS(Web Applcation server) - Apache tomcat, Nginx
+HTML, CSS, JS			Data(DB)
+				
